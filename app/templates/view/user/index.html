@@ -1,0 +1,160 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12">
+		<div class="card card-stats">
+			<div class="card-header card-header-primary card-header-icon">
+					<div class="card-icon">
+            <a href="user/create" style="color:#fff">
+						  <i class="material-icons">control_point</i>
+            </a>
+					</div>
+          <h2 class="card-title">User Register</h2>
+			</div>
+
+			<div class="card-body text-left">
+				<table id="user-table" class="table table-striped table-no-bordered table-hover dataTable dtr-inline" style="width: 100%;" >
+                      <thead>
+                        <tr role="row">
+                          <th>Name</th>
+                          <th>Position</th>
+                          <th>Office</th>
+                          <th >Age</th>
+                          <th>Date</th>
+                          <th >Actions</th>
+                        </tr>
+                      </thead>
+                      <tfoot>
+                        <tr>
+                          <th rowspan="1" colspan="1">Name</th>
+                          <th rowspan="1" colspan="1">Position</th>
+                          <th rowspan="1" colspan="1">Office</th>
+                          <th rowspan="1" colspan="1">Age</th>
+                          <th rowspan="1" colspan="1">Start date</th>
+                          <th rowspan="1" colspan="1">Actions</th></tr>
+                      </tfoot>
+                      <tbody>
+                        
+                      <tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Howard Hatfield</td>
+                          <td>Office Manager</td>
+                          <td>San Francisco</td>
+                          <td>51</td>
+                          <td>2008/12/16</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Jena Gaines</td>
+                          <td>Office Manager</td>
+                          <td>London</td>
+                          <td>30</td>
+                          <td>2008/12/19</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Jenette Caldwell</td>
+                          <td>Development Lead</td>
+                          <td>New York</td>
+                          <td>30</td>
+                          <td>2011/09/03</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Jennifer Chang</td>
+                          <td>Regional Director</td>
+                          <td>Singapore</td>
+                          <td>28</td>
+                          <td>2010/11/14</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Martena Mccray</td>
+                          <td>Post-Sales support</td>
+                          <td>Edinburgh</td>
+                          <td>46</td>
+                          <td>2011/03/09</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Michael Silva</td>
+                          <td>Marketing Designer</td>
+                          <td>London</td>
+                          <td>66</td>
+                          <td>2012/11/27</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Michelle House</td>
+                          <td>Integration Specialist</td>
+                          <td>Sidney</td>
+                          <td>37</td>
+                          <td>2011/06/02</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Paul Byrd</td>
+                          <td>Chief Financial Officer (CFO)</td>
+                          <td>New York</td>
+                          <td>64</td>
+                          <td>2010/06/09</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Prescott Bartlett</td>
+                          <td>Technical Author</td>
+                          <td>London</td>
+                          <td>27</td>
+                          <td>2011/05/07</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Quinn Flynn</td>
+                          <td>Support Lead</td>
+                          <td>Edinburgh</td>
+                          <td>22</td>
+                          <td>2013/03/03</td>
+                          <td>
+                            <a href="#" class="btn btn-link btn-info btn-just-icon like"><i class="material-icons">favorite</i></a>
+                            <a href="#" class="btn btn-link btn-warning btn-just-icon edit"><i class="material-icons">dvr</i></a>
+                            <a href="#" class="btn btn-link btn-danger btn-just-icon remove"><i class="material-icons">close</i></a>
+                          </td>
+                        </tr></tbody>
+                    </table>
+			</div>
+		</div>
+	</div>
+</div>
+	
+{% endblock %}
+
+{% block script %}
+  <script type="text/javascript" src="{{ url_for('static', filename='template/js/user.js') }} "></script>
+{% endblock %}
